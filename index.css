@@ -11,6 +11,7 @@ ul, li {
   position: relative;
   height: 400px;
   width: 100%;
+  margin-bottom: 200px;
   background: url('./images/bg.jpg');
   background-repeat: no-repeat;
   background-size: 100% 120%;
@@ -83,4 +84,36 @@ ul, li {
 .basic_info .icon img{
   height: 30px;
   margin-right: 20px;
+}
+.skill {
+  margin: 0 auto;
+  width: 650px;
+  border-radius: 5px;
+  padding: 25px;
+  padding-right: 0;
+  box-shadow: 4px 4px 8px #666666;
+}
+.skill h3{
+  margin: 10px 0;
+  text-align: center;
+  color: #607B8B;
+}
+.skill .skill_desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill .skill_desc .content h4, h5 {
+  margin: 10px 0;
+}
+.skill .skill_desc .content .item {
+  padding-left: 10px;
+}
+.skill .skill_desc .content .item div {
+  padding-left: 10px;
+  font-size: 14px;
+  color: #5E5E5E;
+}
+.skill .skill_desc img {
+  height: 300px;
 }
