@@ -120,8 +120,9 @@ ul, li {
 .experience {
   margin: 0 100px;
 }
-.experience h3 {
+.experience h2 {
   text-align: center;
+  color: #607B8B;
 }
 .experience .item {
   display: flex;
@@ -153,4 +154,15 @@ ul, li {
   border-radius: 5px;
   color: #5E5E5E;
   background: #20B2AA;
+}
+.self_introduction {
+  width: 87%;
+  margin: 15px auto;
+  text-align: center;
+}
+.self_introduction h2 {
+  color: #607B8B;
+}
+.self_introduction .content {
+  padding: 20px 0;
 }
