@@ -94,6 +94,46 @@
         <img src="./images/skill.png" alt="skill"/>
       </div>
     </section>
+    <section class="experience">
+      <h3>项目经验</h3>
+      <div class="item">
+         <img src="./images/admin.png" alt="admin" />
+         <div class="desc">
+           <div class="title">后台管理端</div>
+           <div class="content">
+             项目简述：项目采用react+react-router编写，数据状态管理使用redux，组件样式库使用蚂蚁金服的Ant-design，
+             打包构建工具使用webpack，代码规范使用Eslint，类型检测Flow；整个项目分为9个模块，主要是为了管理用户、工作人员和订单数据，有用户管理，订单管理，运营数据管理，权限管理等模块，
+             主要对数据的增删改查。
+           </div>
+           <a href="https://admin.omni-health.cn">项目地址</a>
+         </div>
+      </div>
+      <div class="item">
+         <img src="./images/doctor.png" alt="admin" />
+         <div class="desc">
+           <div class="title">后台医生端</div>
+           <div class="content">
+             项目简述：项目采用的技术栈和管理端相同，医生端是为各个地点医生提供服务的一个端，医生可以在上面和用户、其他医生交流，
+             填写用户咨询内容，管理库存等操作，是我们平台与用户之间联系沟通的重要桥梁；针对不同的医生会在管理端设置不同的模块权限，所有医生都有咨询、用户管理和就医协助模块，
+             其他模块需要配置后才能显示；在线咨询使用的是网易云信SDK，WebRtc；
+           </div>
+           <a href="https://doctor.omni-health.cn">项目地址</a>
+         </div>
+      </div>
+      <div class="item">
+         <img src="./images/h5.jpg" alt="admin" />
+         <div class="desc">
+           <div class="title">移动H5端</div>
+           <div class="content">
+             项目简述：项目同样是采用react框架，样式组件采用的是Ant-Mobile；首页采用的是可配置化，首页显示模块根据不同小站在管理端进行不同的配置，
+             就医协助模块是用户提交就医协助单并支付，可以携带多个参数，根据不同参数有不同的实现；
+             轻松锁模块主要是控制健康舱的门锁，扫码开锁后采用了WebSocket来持续连接判断关锁的状态来计时收费；
+             此外还有活动预约、在线咨询（原生）和我的模块，其中图标采用的是highCharts。
+           </div>
+           <a href="https://m.omni-health.cn">项目地址</a>
+         </div>
+      </div>
+    </section>
   </div>
 </body>
 </html>

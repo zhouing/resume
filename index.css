@@ -117,3 +117,40 @@ ul, li {
 .skill .skill_desc img {
   height: 300px;
 }
+.experience {
+  margin: 0 100px;
+}
+.experience h3 {
+  text-align: center;
+}
+.experience .item {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(197,219,222);
+  margin-bottom: 30px;
+  max-height: 300px;
+  border: 1px solid rgb(197,219,222);
+  border-radius: 10px;
+}
+.experience .item img {
+  width: 30%;
+  margin-right: 15px;
+}
+.experience .item .desc .title {
+  font-size: 18px;
+  margin: 10px;
+}
+.experience .item .desc .content {
+  padding-right: 10px;
+  line-height: 24px;
+  color: #5E5E5E;
+}
+.experience .item .desc a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  color: #5E5E5E;
+  background: #20B2AA;
+}
